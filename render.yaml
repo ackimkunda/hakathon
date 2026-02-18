@@ -2,4 +2,4 @@ services:
   - type: static
     name: hakathon-zozo
     buildCommand: ""
-    publishPath: landingpage
+    publishPath: "."
