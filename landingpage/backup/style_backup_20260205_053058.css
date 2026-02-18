@@ -1,0 +1,441 @@
+/* 
+  ELECT Project Website - Custom Styles
+  Clean Energy Theme
+*/
+
+/* ===== CSS Variables ===== */
+:root {
+  --primary-color: #2E8B57;       /* Sea Green - Clean Energy */
+  --secondary-color: #20B2AA;     /* Light Sea Green */
+  --accent-color: #4682B4;        /* Steel Blue */
+  --light-color: #F8F9FA;         /* Light Gray */
+  --dark-color: #212529;          /* Dark Gray */
+  --success-color: #28A745;       /* Bootstrap Success */
+  --warning-color: #FFC107;       /* Bootstrap Warning */
+  --danger-color: #DC3545;        /* Bootstrap Danger */
+  --info-color: #17A2B8;          /* Bootstrap Info */
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --transition: all 0.3s ease;
+}
+
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--dark-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.text-primary-custom {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary-custom {
+  color: var(--secondary-color) !important;
+}
+
+.bg-primary-custom {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary-custom {
+  background-color: var(--secondary-color) !important;
+}
+
+/* ===== Custom Utility Classes ===== */
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle.circle-muted {
+  background-color: #e9ecef;
+  color: #6c757d;
+}
+
+.icon-circle.circle-primary {
+  background-color: rgba(46, 139, 87, 0.1);
+  color: var(--primary-color);
+}
+
+/* ===== Navigation ===== */
+.navbar {
+  padding: 0.5rem 0;
+}
+
+.navbar-brand img {
+  transition: var(--transition);
+}
+
+.navbar-brand:hover img {
+  transform: scale(1.05);
+}
+
+.nav-link {
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  margin: 0 0.2rem;
+  border-radius: 4px;
+  position: relative;
+}
+
+.nav-link:hover {
+  background-color: rgba(46, 139, 87, 0.1);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 70%;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  background: linear-gradient(135deg, rgba(248, 249, 250, 0.9) 0%, rgba(232, 247, 237, 0.9) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 60%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(32, 178, 170, 0.1) 0%, rgba(32, 178, 170, 0) 70%);
+  z-index: 0;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* ===== Card Customizations ===== */
+.card {
+  border: none;
+  transition: var(--transition);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+
+.card.partner-card {
+  border: 1px solid #e9ecef;
+}
+
+.card.partner-card:hover {
+  border-color: var(--primary-color);
+}
+
+.card.partner-card .partner-logo {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.partner-card .partner-logo img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* ===== Buttons ===== */
+.btn-custom {
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  transition: var(--transition);
+}
+
+.btn-success, .btn-outline-success {
+  border-radius: 6px;
+}
+
+.btn-success {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-success:hover {
+  background-color: #248049;
+  border-color: #248049;
+  transform: translateY(-2px);
+}
+
+.btn-outline-success {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-success:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+/* ===== Section Styling ===== */
+section {
+  padding: 5rem 0;
+}
+
+section.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+/* Divider */
+.divider {
+  height: 3px;
+  background-color: var(--primary-color);
+  border-radius: 2px;
+}
+
+/* ===== Events & News ===== */
+.event-date {
+  min-width: 80px;
+}
+
+.list-group-item {
+  border-left: 0;
+  border-right: 0;
+  background-color: transparent;
+}
+
+.list-group-item:first-child {
+  border-top: 0;
+}
+
+/* ===== Gallery ===== */
+.gallery-item {
+  cursor: pointer;
+  transition: var(--transition);
+  height: 250px;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-overlay {
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1 !important;
+}
+
+/* ===== Accordion ===== */
+.accordion-button {
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(46, 139, 87, 0.1);
+  color: var(--primary-color);
+}
+
+.accordion-button:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.25rem rgba(46, 139, 87, 0.25);
+}
+
+/* ===== Contact Form ===== */
+.form-control {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 0.75rem 1rem;
+  transition: var(--transition);
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.25rem rgba(46, 139, 87, 0.25);
+}
+
+/* ===== Footer ===== */
+footer.bg-dark {
+  background-color: #1a1d20 !important;
+}
+
+footer a.text-light:hover {
+  color: var(--secondary-color) !important;
+}
+
+/* ===== Animation Classes ===== */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .navbar-nav {
+    padding-top: 1rem;
+  }
+  
+  .nav-link {
+    margin: 0.2rem 0;
+  }
+  
+  .event-date {
+    min-width: 70px;
+  }
+  
+  .gallery-item {
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 1.75rem;
+  }
+  
+  .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .display-5 {
+    font-size: 2rem;
+  }
+}
+
+/* ===== Custom Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
+
+/* ===== Animation for scroll-triggered elements ===== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scroll-animate {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* ===== Partner Logo Hover Effects ===== */
+.partner-logo img {
+  filter: grayscale(20%);
+  transition: var(--transition);
+}
+
+.partner-card:hover .partner-logo img {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+/* ===== EU Badge ===== */
+.badge.bg-primary {
+  background-color: #003399 !important; /* EU Blue */
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* ===== Print Styles ===== */
+@media print {
+  .navbar,
+  .btn,
+  footer,
+  .gallery-overlay,
+  .gallery-item:hover img {
+    display: none !important;
+  }
+  
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+  
+  .card {
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+  }
+}

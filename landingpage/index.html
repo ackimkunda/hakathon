@@ -1,0 +1,1723 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ELECT Project | Energy Efficient Lighting for Clean Energy Transitions in Zambia</title>
+
+  <!-- ELECT Project Favicon -->
+  <link rel="shortcut icon" type="image/png" href="./images/elect-logo.png" />
+  <link rel="icon" type="image/x-icon" href="./images/elect-logo.png">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  
+  <!-- Custom CSS -->
+  <link href="./style.css" rel="stylesheet" />
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Loading Animation -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="loader-spinner"></div>
+      <h3>ELECT Project</h3>
+      <p>Energy Efficient Lighting for Clean Energy Transitions</p>
+      <div class="loader-progress">
+        <div class="loader-progress-bar"></div>
+      </div>
+      <p class="small">Loading sustainable solutions...</p>
+    </div>
+  </div>
+
+  <div id="main-wrapper">
+    <!-- HEADER & NAVIGATION -->
+    <header class="py-3 bg-white sticky-top shadow-sm">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light px-0">
+          <!-- ELECT Project Logo -->
+          <a class="navbar-brand d-flex align-items-center" href="#home">
+            <img src="./images/elect-logo.png" 
+                 alt="ELECT Project Logo" height="40" class="me-2" />
+            <span class="d-none d-md-inline h5 mb-0 text-success fw-bold">ELECT Project</span>
+          </a>
+          
+          <!-- EU Co-funding Badge -->
+          <div class="d-none d-lg-block ms-auto me-4">
+            <span class="badge bg-primary px-3 py-2">
+              <i class="fas fa-flag-europe me-1"></i> Co-funded by the European Union
+            </span>
+          </div>
+
+          <!-- Dark Mode Toggle -->
+          <div class="dark-mode-toggle ms-2" id="darkModeToggle" title="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+          </div>
+          
+          <!-- Mobile Toggle -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- Navigation Menu -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#objectives">Objectives</a></li>
+              <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li>
+              <li class="nav-item"><a class="nav-link" href="#news">News & Events</a></li>
+              <li class="nav-item"><a class="nav-link" href="#curriculum">Curriculum</a></li>
+              <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+              <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      
+      <!-- HERO SECTION (Home) -->
+      <section id="home" class="hero-section py-5 bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <!-- EU Statement -->
+              <div class="mb-4">
+                <div class="d-inline-block p-3 bg-white rounded shadow-sm border border-primary">
+                  <small class="text-uppercase text-primary fw-bold">
+                    <i class="fas fa-award me-1"></i> European Union Co-funded Project
+                  </small>
+                </div>
+              </div>
+              
+              <!-- Main Heading -->
+              <h1 class="display-5 fw-bold text-dark mb-4">
+                Energy Efficient Lighting for Clean Energy Transitions in <span class="text-success">Zambia</span>
+              </h1>
+              
+              <!-- Project Overview -->
+              <p class="lead text-muted mb-4">
+                An international initiative promoting sustainable lighting solutions through education, 
+                innovation, and partnership between Zambian and European universities.
+              </p>
+              
+              <!-- Key Points -->
+              <div class="row g-3 mb-4">
+                <div class="col-md-6">
+                  <div class="d-flex">
+                    <i class="fas fa-bullseye text-success fa-lg mt-1 me-3"></i>
+                    <div>
+                      <h6 class="fw-bold mb-1">Clean Energy Focus</h6>
+                      <p class="text-muted small mb-0">Reducing carbon footprint through efficient lighting</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex">
+                    <i class="fas fa-graduation-cap text-success fa-lg mt-1 me-3"></i>
+                    <div>
+                      <h6 class="fw-bold mb-1">Capacity Building</h6>
+                      <p class="text-muted small mb-0">Training the next generation of energy experts</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- CTA Buttons -->
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#curriculum" class="btn btn-success btn-lg px-4">
+                  <i class="fas fa-book me-2"></i> View Curriculum
+                </a>
+                <a href="#contact" class="btn btn-outline-success btn-lg px-4">
+                  <i class="fas fa-envelope me-2"></i> Contact Us
+                </a>
+              </div>
+            </div>
+            
+            <!-- Hero Image -->
+            <div class="col-lg-6 mt-5 mt-lg-0">
+              <div class="position-relative">
+                <img src="./images/gallery2.jpg" 
+                     alt="Clean Energy Lighting in Zambia" class="img-fluid rounded shadow-lg" style="height: 400px; width: 100%; object-fit: cover;" />
+                <div class="position-absolute bottom-0 start-0 bg-success text-white p-3 rounded-end">
+                  <h5 class="mb-0">Sustainable • Innovative • Impactful</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Performance Metrics Live Counter -->
+          <div class="row mt-5 pt-4 border-top">
+            <div class="col-12">
+              <h4 class="text-center text-success fw-bold mb-4">
+                <i class="fas fa-chart-line me-2"></i> Real-Time Project Impact
+              </h4>
+              
+              <div class="row g-4">
+                <div class="col-md-3 col-6">
+                  <div class="metric-card text-center p-3">
+                    <div class="metric-icon mb-3">
+                      <i class="fas fa-user-graduate fa-2x text-success"></i>
+                    </div>
+                    <h3 class="metric-value fw-bold" data-target="243">0</h3>
+                    <p class="metric-label text-muted mb-0">Students Trained</p>
+                    <div class="metric-progress mt-2">
+                      <div class="progress" style="height: 4px;">
+                        <div class="progress-bar bg-success" style="width: 85%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-3 col-6">
+                  <div class="metric-card text-center p-3">
+                    <div class="metric-icon mb-3">
+                      <i class="fas fa-lightbulb fa-2x text-success"></i>
+                    </div>
+                    <h3 class="metric-value fw-bold" data-target="1567">0</h3>
+                    <p class="metric-label text-muted mb-0">Lights Installed</p>
+                    <div class="metric-progress mt-2">
+                      <div class="progress" style="height: 4px;">
+                        <div class="progress-bar bg-success" style="width: 78%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-3 col-6">
+                  <div class="metric-card text-center p-3">
+                    <div class="metric-icon mb-3">
+                      <i class="fas fa-bolt fa-2x text-success"></i>
+                    </div>
+                    <h3 class="metric-value fw-bold" data-target="124500">0</h3>
+                    <p class="metric-label text-muted mb-0">kWh Energy Saved</p>
+                    <div class="metric-progress mt-2">
+                      <div class="progress" style="height: 4px;">
+                        <div class="progress-bar bg-success" style="width: 92%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-3 col-6">
+                  <div class="metric-card text-center p-3">
+                    <div class="metric-icon mb-3">
+                      <i class="fas fa-users fa-2x text-success"></i>
+                    </div>
+                    <h3 class="metric-value fw-bold" data-target="42">0</h3>
+                    <p class="metric-label text-muted mb-0">Communities Reached</p>
+                    <div class="metric-progress mt-2">
+                      <div class="progress" style="height: 4px;">
+                        <div class="progress-bar bg-success" style="width: 65%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="text-center mt-4">
+                <small class="text-muted">
+                  <i class="fas fa-sync-alt me-1"></i> Metrics update in real-time based on project progress
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ZAMBIA MAP SECTION -->
+      <section class="zambia-map-section py-5">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="fw-bold text-dark mb-3">
+                <i class="fas fa-map-marked-alt me-2"></i> Project Impact Across Zambia
+              </h2>
+              <div class="divider bg-success mx-auto" style="width: 60px; height: 3px;"></div>
+              <p class="text-muted mt-4">
+                Interactive map showing ELECT Project implementation across Zambian regions.
+                Click on any region to see project details.
+              </p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="map-container">
+                <div class="zambia-map" id="zambiaMap">
+                  <!-- Regions -->
+                  <div class="map-region" id="lusaka" 
+                       style="top: 60%; left: 40%;" 
+                       data-region="Lusaka" 
+                       data-projects="3">
+                    <i class="fas fa-city me-1"></i> Lusaka
+                  </div>
+                  
+                  <div class="map-region" id="copperbelt"
+                       style="top: 40%; left: 30%;"
+                       data-region="Copperbelt"
+                       data-projects="5">
+                    <i class="fas fa-industry me-1"></i> Copperbelt
+                  </div>
+                  
+                  <div class="map-region" id="southern"
+                       style="top: 80%; left: 45%;"
+                       data-region="Southern"
+                       data-projects="2">
+                    <i class="fas fa-tractor me-1"></i> Southern
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4">
+              <div class="region-details" id="regionDetails">
+                <h5 id="regionName">Select a Region</h5>
+                <p id="regionDescription" class="text-muted mb-4">
+                  Click on any region on the map to view project statistics.
+                </p>
+                
+                <div class="region-stats" id="regionStats">
+                  <div class="region-stat">
+                    <i class="fas fa-project-diagram text-success me-2"></i>
+                    <span id="statProjects">0</span> Projects
+                  </div>
+                </div>
+                
+                <div class="mt-4">
+                  <h6>Key Projects:</h6>
+                  <ul class="list-unstyled" id="regionProjects">
+                    <li><i class="fas fa-check-circle text-success me-2"></i>Select region for details</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="py-5">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="fw-bold text-dark mb-3">About the Project</h2>
+              <div class="divider bg-success mx-auto" style="width: 60px; height: 3px;"></div>
+              <p class="text-muted mt-4">
+                The ELECT Project is an international initiative implemented by Mulungushi University 
+                in partnership with Copperbelt University, Aalto University (Finland), and Hellenic Open University (Greece).
+              </p>
+            </div>
+          </div>
+          
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body text-center p-4">
+                  <div class="icon-circle bg-success text-white mb-3 mx-auto">
+                    <i class="fas fa-history fa-lg"></i>
+                  </div>
+                  <h4 class="card-title">Background</h4>
+                  <p class="card-text text-muted">
+                    Zambia faces significant energy challenges with growing demand and reliance on 
+                    traditional energy sources. The ELECT Project addresses these through sustainable 
+                    lighting solutions and capacity building.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body text-center p-4">
+                  <div class="icon-circle bg-success text-white mb-3 mx-auto">
+                    <i class="fas fa-bullseye fa-lg"></i>
+                  </div>
+                  <h4 class="card-title">Purpose</h4>
+                  <p class="card-text text-muted">
+                    To promote clean energy transitions in Zambia through education, research, 
+                    and innovation in energy-efficient lighting technologies, reducing environmental 
+                    impact while improving access to sustainable energy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body text-center p-4">
+                  <div class="icon-circle bg-success text-white mb-3 mx-auto">
+                    <i class="fas fa-users fa-lg"></i>
+                  </div>
+                  <h4 class="card-title">Target Beneficiaries</h4>
+                  <ul class="list-unstyled text-muted text-start mt-3">
+                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i> University students & faculty</li>
+                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Energy sector professionals</li>
+                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i> Policymakers & regulators</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Local communities & businesses</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- OBJECTIVES & IMPACTS SECTION -->
+      <section id="objectives" class="py-5 bg-light">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="fw-bold text-dark mb-3">Objectives & Impacts</h2>
+              <div class="divider bg-success mx-auto" style="width: 60px; height: 3px;"></div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-lg-6">
+              <h3 class="h4 fw-bold text-success mb-4">Project Objectives</h3>
+              <div class="accordion" id="objectivesAccordion">
+                <div class="accordion-item border-0 mb-3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-white text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#objective1">
+                      <i class="fas fa-graduation-cap text-success me-3"></i> Capacity Building
+                    </button>
+                  </h2>
+                  <div id="objective1" class="accordion-collapse collapse show" data-bs-parent="#objectivesAccordion">
+                    <div class="accordion-body text-muted">
+                      Develop and implement a comprehensive curriculum on energy-efficient lighting 
+                      for undergraduate and postgraduate students at Zambian universities.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="accordion-item border-0 mb-3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-white text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#objective2">
+                      <i class="fas fa-lightbulb text-success me-3"></i> Research & Innovation
+                    </button>
+                  </h2>
+                  <div id="objective2" class="accordion-collapse collapse" data-bs-parent="#objectivesAccordion">
+                    <div class="accordion-body text-muted">
+                      Foster applied research and innovation in energy-efficient lighting technologies 
+                      suited to the Zambian context and climate.
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="accordion-item border-0 mb-3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed bg-white text-dark fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#objective3">
+                      <i class="fas fa-handshake text-success me-3"></i> Partnership Development
+                    </button>
+                  </h2>
+                  <div id="objective3" class="accordion-collapse collapse" data-bs-parent="#objectivesAccordion">
+                    <div class="accordion-body text-muted">
+                      Strengthen institutional partnerships between Zambian and European universities 
+                      for sustainable knowledge exchange and collaboration.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-6 mt-5 mt-lg-0">
+              <h3 class="h4 fw-bold text-success mb-4">Expected Outcomes & Benefits</h3>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="card border-success border-2 h-100">
+                    <div class="card-body">
+                      <h5 class="card-title text-success">
+                        <i class="fas fa-chart-line me-2"></i> Energy Savings
+                      </h5>
+                      <p class="card-text small text-muted">
+                        Reduction in energy consumption through adoption of efficient lighting solutions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card border-success border-2 h-100">
+                    <div class="card-body">
+                      <h5 class="card-title text-success">
+                        <i class="fas fa-user-graduate me-2"></i> Trained Professionals
+                      </h5>
+                      <p class="card-text small text-muted">
+                        Over 200 students and professionals trained in clean energy technologies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card border-success border-2 h-100">
+                    <div class="card-body">
+                      <h5 class="card-title text-success">
+                        <i class="fas fa-file-alt me-2"></i> Research Outputs
+                      </h5>
+                      <p class="card-text small text-muted">
+                        Publication of research papers, case studies, and policy briefs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card border-success border-2 h-100">
+                    <div class="card-body">
+                      <h5 class="card-title text-success">
+                        <i class="fas fa-globe-africa me-2"></i> Community Impact
+                      </h5>
+                      <p class="card-text small text-muted">
+                        Improved energy access and reduced costs for local communities.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Energy Savings Calculator -->
+          <div class="row mt-5">
+            <div class="col-12">
+              <div class="card border-success border-3">
+                <div class="card-body p-4">
+                  <div class="row align-items-center">
+                    <div class="col-lg-5">
+                      <h3 class="text-success fw-bold mb-3">
+                        <i class="fas fa-calculator me-2"></i> Energy Savings Calculator
+                      </h3>
+                      <p class="text-muted">
+                        See how energy-efficient lighting can reduce costs and carbon footprint in your community.
+                      </p>
+                      <div class="mt-4">
+                        <h6>Number of Traditional Lights:</h6>
+                        <input type="range" class="form-range" id="lightCount" min="10" max="1000" value="100" step="10">
+                        <div class="d-flex justify-content-between">
+                          <small>10 lights</small>
+                          <small><span id="lightCountValue">100</span> lights</small>
+                          <small>1000 lights</small>
+                        </div>
+                      </div>
+                      <div class="mt-4">
+                        <h6>Daily Usage:</h6>
+                        <input type="range" class="form-range" id="usageHours" min="4" max="24" value="12">
+                        <div class="d-flex justify-content-between">
+                          <small>4 hours/day</small>
+                          <small><span id="usageHoursValue">12</span> hours/day</small>
+                          <small>24 hours/day</small>
+                        </div>
+                      </div>
+                      <div class="mt-4">
+                        <button class="btn btn-success w-100" id="calculateBtn">
+                          <i class="fas fa-bolt me-2"></i> Calculate Savings
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="results-card bg-light p-4 rounded">
+                        <h5 class="text-success fw-bold mb-4">Potential Annual Impact</h5>
+                        
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                            <div class="stat-card p-3 bg-white rounded shadow-sm">
+                              <div class="d-flex align-items-center">
+                                <div class="icon-circle bg-success text-white me-3">
+                                  <i class="fas fa-bolt"></i>
+                                </div>
+                                <div>
+                                  <h5 class="mb-0" id="energySaved">0 kWh</h5>
+                                  <small class="text-muted">Energy Saved</small>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="col-md-6">
+                            <div class="stat-card p-3 bg-white rounded shadow-sm">
+                              <div class="d-flex align-items-center">
+                                <div class="icon-circle bg-success text-white me-3">
+                                  <i class="fas fa-money-bill-wave"></i>
+                                </div>
+                                <div>
+                                  <h5 class="mb-0" id="costSaved">$0</h5>
+                                  <small class="text-muted">Cost Savings</small>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="col-md-6">
+                            <div class="stat-card p-3 bg-white rounded shadow-sm">
+                              <div class="d-flex align-items-center">
+                                <div class="icon-circle bg-success text-white me-3">
+                                  <i class="fas fa-smog"></i>
+                                </div>
+                                <div>
+                                  <h5 class="mb-0" id="co2Reduced">0 kg</h5>
+                                  <small class="text-muted">CO₂ Reduction</small>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="col-md-6">
+                            <div class="stat-card p-3 bg-white rounded shadow-sm">
+                              <div class="d-flex align-items-center">
+                                <div class="icon-circle bg-success text-white me-3">
+                                  <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <div>
+                                  <h5 class="mb-0" id="equivalentHomes">0</h5>
+                                  <small class="text-muted">Equivalent Homes Powered</small>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                          <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-success" id="savingsProgress" style="width: 0%"></div>
+                          </div>
+                          <div class="d-flex justify-content-between mt-2">
+                            <small class="text-muted">Traditional Lighting</small>
+                            <small class="text-success fw-bold">Efficient Lighting</small>
+                          </div>
+                        </div>
+                        
+                        <div class="alert alert-success mt-4" id="impactMessage">
+                          Start calculating to see your potential impact!
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PARTNERS SECTION -->
+      <section id="partners" class="py-5">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="fw-bold text-dark mb-3">Project Partners</h2>
+              <div class="divider bg-success mx-auto" style="width: 60px; height: 3px;"></div>
+              <p class="text-muted mt-4">
+                The ELECT Project brings together leading academic institutions from Zambia and Europe.
+              </p>
+            </div>
+          </div>
+          
+          <div class="row g-4 justify-content-center align-items-center">
+            <!-- Partner 1: Mulungushi University -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card partner-card border-0 text-center h-100">
+                <div class="card-body p-4">
+                  <div class="partner-logo mb-3">
+                    <img src="./images/mulungushi-logo.png" 
+                         alt="Mulungushi University" class="img-fluid" style="max-height: 80px;" />
+                  </div>
+                  <h5 class="card-title fw-bold">Mulungushi University</h5>
+                  <p class="card-text small text-muted">Zambia (Lead Partner)</p>
+                  <a href="https://www.mu.ac.zm" target="_blank" class="btn btn-sm btn-outline-success mt-2">
+                    Visit Website <i class="fas fa-external-link-alt ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Partner 2: Copperbelt University -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card partner-card border-0 text-center h-100">
+                <div class="card-body p-4">
+                  <div class="partner-logo mb-3">
+                    <!-- Placeholder for missing Copperbelt logo -->
+                      <img src="./images/Copperbelt University.png" 
+                           alt="Copperbelt University" class="img-fluid" style="max-height: 80px; opacity: 0.5;" />
+
+                    
+                     
+                      
+                      
+              
+            
+                  </div>
+                  <h5 class="card-title fw-bold">Copperbelt University</h5>
+                  <p class="card-text small text-muted">Zambia</p>
+                  <a href="https://www.cbu.ac.zm" target="_blank" class="btn btn-sm btn-outline-success mt-2">
+                    Visit Website <i class="fas fa-external-link-alt ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Partner 3: Aalto University -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card partner-card border-0 text-center h-100">
+                <div class="card-body p-4">
+                  <div class="partner-logo mb-3">
+                    <img src="./images/aalto-logo.png" 
+                         alt="Aalto University" class="img-fluid" style="max-height: 80px;" />
+                  </div>
+                  <h5 class="card-title fw-bold">Aalto University</h5>
+                  <p class="card-text small text-muted">Finland</p>
+                  <a href="https://www.aalto.fi" target="_blank" class="btn btn-sm btn-outline-success mt-2">
+                    Visit Website <i class="fas fa-external-link-alt ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Partner 4: Hellenic Open University -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card partner-card border-0 text-center h-100">
+                <div class="card-body p-4">
+                  <div class="partner-logo mb-3">
+                    <img src="./images/hou-logo.png" 
+                         alt="Hellenic Open University" class="img-fluid" style="max-height: 80px;" />
+                  </div>
+                  <h5 class="card-title fw-bold">Hellenic Open University</h5>
+                  <p class="card-text small text-muted">Greece</p>
+                  <a href="https://www.eap.gr" target="_blank" class="btn btn-sm btn-outline-success mt-2">
+                    Visit Website <i class="fas fa-external-link-alt ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- EU Funding Note -->
+          <div class="row mt-5">
+            <div class="col-lg-8 mx-auto">
+              <div class="alert alert-primary border-0 text-center py-3">
+                <div class="d-flex align-items-center justify-content-center">
+                  <i class="fas fa-flag-europe fa-2x me-3"></i>
+                  <div class="text-start">
+                    <h5 class="mb-1">Co-funded by the European Union</h5>
+                    <p class="mb-0 small">This project is implemented with financial support from the European Union.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWS & EVENTS SECTION -->
+      <section id="news" class="py-5 bg-light">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="fw-bold text-dark mb-3">News, Events & Results</h2>
+              <div class="divider bg-success mx-auto" style="width: 60px; height: 3px;"></div>
+            </div>
+          </div>
+          
+          <div class="row g-4">
+            <!-- Upcoming Events -->
+            <div class="col-lg-6">
+              <h3 class="h4 fw-bold text-success mb-4">
+                <i class="fas fa-calendar-alt me-2"></i> Upcoming Events
+              </h3>
+              <div class="card border-0 shadow-sm mb-4">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-start">
+                    <div class="event-date bg-success text-white text-center p-3 rounded me-4">
+                      <div class="fs-4 fw-bold">15</div>
+                      <div class="small">OCT</div>
+                      <div class="small">2024</div>
+                    </div>
+                    <div>
+                      <h5 class="card-title fw-bold">Workshop: Energy-Efficient Lighting Design</h5>
+                      <p class="card-text text-muted small">
+                        A hands-on workshop for engineering students at Mulungushi University.
+                      </p>
+                      <a href="#" class="btn btn-sm btn-success">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-start">
+                    <div class="event-date bg-success text-white text-center p-3 rounded me-4">
+                      <div class="fs-4 fw-bold">05</div>
+                      <div class="small">NOV</div>
+                      <div class="small">2024</div>
+                    </div>
+                    <div>
+                      <h5 class="card-title fw-bold">International Conference on Clean Energy</h5>
+                      <p class="card-text text-muted small">
+                        ELECT Project partners present research findings in Helsinki, Finland.
+                      </p>
+                      <a href="#" class="btn btn-sm btn-success">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- News & Results -->
+            <div class="col-lg-6">
+              <h3 class="h4 fw-bold text-success mb-4">
+                <i class="fas fa-newspaper me-2"></i> Latest Updates
+              </h3>
+              
+              <div class="list-group border-0">
+                <div class="list-group-item border-0 border-bottom py-3 px-0">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 fw-bold">Curriculum Development Completed</h6>
+                    <small class="text-muted">2 weeks ago</small>
+                  </div>
+                  <p class="mb-1 small text-muted">
+                    The ELECT Project curriculum has been finalized and approved by all partner institutions.
+                  </p>
+                </div>
+                
+                <div class="list-group-item border-0 border-bottom py-3 px-0">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 fw-bold">Research Paper Published</h6>
+                    <small class="text-muted">1 month ago</small>
+                  </div>
+                  <p class="mb-1 small text-muted">
+                    "Energy-Efficient Lighting Solutions for Rural Zambia" published in International Journal of Sustainable Energy.
+                  </p>
+                </div>
+                
+                <div class="list-group-item border-0 py-3 px-0">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1 fw-bold">Student Internship Program Launched</h6>
+                    <small class="text-muted">2 months ago</small>
+                  </div>
+                  <p class="mb-1 small text-muted">
+                    15 students selected for industry internships with Zambian energy companies.
+                  </p>
+                </div>
+              </div>
+              
+              <!-- Deliverables -->
+              <div class="mt-5">
+                <h3 class="h4 fw-bold text-success mb-4">
+                  <i class="fas fa-folder-open me-2"></i> Project Deliverables
+                </h3>
+                <div class="d-flex flex-wrap gap-2">
+                  <a href="#" class="btn btn-outline-success btn-sm">
+                    <i class="fas fa-file-pdf me-1"></i> Annual Report 2023
+                  </a>
+                  <a href="#" class="btn btn-outline-success btn-sm">
+                    <i class="fas fa-file-pdf me-1"></i> Curriculum Handbook
+                  </a>
+                  <a href="#" class="btn btn-outline-success btn-sm">
+                    <i class="fas fa-file-pdf me-1"></i> Research Findings
+                  </a>
+                  <a href="#" class="btn btn-outline-success btn-sm">
+                    <i class="fas fa-file-pdf me-1"></i> Policy Recommendations
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CURRICULUM SECTION -->
+      <section id="curriculum" class="py-5">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="fw-bold text-dark mb-3">Curriculum & Programme</h2>
+              <div class="divider bg-success mx-auto" style="width: 60px; height: 3px;"></div>
+              <p class="text-muted mt-4">
+                A comprehensive educational programme on energy-efficient lighting and clean energy transitions.
+              </p>
+            </div>
+          </div>
+          
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <div class="card border-success border-2 h-100">
+                <div class="card-body p-4">
+                  <h4 class="card-title text-success fw-bold mb-4">
+                    <i class="fas fa-bullseye me-2"></i> Programme Objectives
+                  </h4>
+                  <ul class="list-unstyled">
+                    <li class="mb-3 d-flex">
+                      <i class="fas fa-check-circle text-success mt-1 me-3"></i>
+                      <span>Provide theoretical and practical knowledge in energy-efficient lighting</span>
+                    </li>
+                    <li class="mb-3 d-flex">
+                      <i class="fas fa-check-circle text-success mt-1 me-3"></i>
+                      <span>Develop skills in lighting design, audit, and assessment</span>
+                    </li>
+                    <li class="mb-3 d-flex">
+                      <i class="fas fa-check-circle text-success mt-1 me-3"></i>
+                      <span>Foster innovation in sustainable lighting solutions</span>
+                    </li>
+                    <li class="d-flex">
+                      <i class="fas fa-check-circle text-success mt-1 me-3"></i>
+                      <span>Prepare graduates for careers in the clean energy sector</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4">
+              <div class="card border-success border-2 h-100">
+                <div class="card-body p-4">
+                  <h4 class="card-title text-success fw-bold mb-4">
+                    <i class="fas fa-chart-line me-2"></i> Learning Outcomes
+                  </h4>
+                  <ul class="list-unstyled">
+                    <li class="mb-3 d-flex">
+                      <i class="fas fa-book text-success mt-1 me-3"></i>
+                      <span>Understand principles of energy-efficient lighting technologies</span>
+                    </li>
+                    <li class="mb-3 d-flex">
+                      <i class="fas fa-book text-success mt-1 me-3"></i>
+                      <span>Conduct lighting energy audits and assessments</span>
+                    </li>
+                    <li class="mb-3 d-flex">
+                      <i class="fas fa-book text-success mt-1 me-3"></i>
+                      <span>Design energy-efficient lighting systems for different contexts</span>
+                    </li>
+                    <li class="d-flex">
+                      <i class="fas fa-book text-success mt-1 me-3"></i>
+                      <span>Analyze economic and environmental impacts of lighting choices</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4">
+              <div class="card border-success border-2 h-100">
+                <div class="card-body p-4">
+                  <h4 class="card-title text-success fw-bold mb-4">
+                    <i class="fas fa-info-circle me-2"></i> Programme Details
+                  </h4>
+                  <div class="row g-3">
+                    <div class="col-12">
+                      <div class="d-flex">
+                        <i class="fas fa-users text-success mt-1 me-3"></i>
+                        <div>
+                          <h6 class="fw-bold mb-1">Target Group</h6>
+                          <p class="text-muted small mb-0">Undergraduate & postgraduate students, energy professionals</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-12">
+                      <div class="d-flex">
+                        <i class="fas fa-clock text-success mt-1 me-3"></i>
+                        <div>
+                          <h6 class="fw-bold mb-1">Duration</h6>
+                          <p class="text-muted small mb-0">6 months (full-time) or 12 months (part-time)</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-12">
+                      <div class="d-flex">
+                        <i class="fas fa-laptop text-success mt-1 me-3"></i>
+                        <div>
+                          <h6 class="fw-bold mb-1">Delivery Format</h6>
+                          <p class="text-muted small mb-0">Blended learning: online modules + hands-on workshops</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-12 mt-3">
+                      <a href="#contact" class="btn btn-success w-100">
+                        <i class="fas fa-edit me-2"></i> Apply Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STUDENT TESTIMONIALS -->
+      <section id="testimonials" class="testimonials-section py-5">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="fw-bold text-dark mb-3">
+                <i class="fas fa-comments me-2"></i> Student Testimonials
+              </h2>
+              <div class="divider bg-success mx-auto" style="width: 60px; height: 3px;"></div>
+              <p class="text-muted mt-4">
+                Hear from students who have benefited from the ELECT Project.
+              </p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">
+                  The ELECT Project gave me practical skills that I'm now applying in my community. This program is changing lives!
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-avatar bg-success">
+                    <i class="fas fa-user-graduate"></i>
+                  </div>
+                  <div class="author-info">
+                    <h5>Sarah Mwale</h5>
+                    <p>Engineering Student</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="testimonial-text">
+                  I've implemented energy-saving measures that reduced our company's electricity bill by 30%.
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-avatar bg-primary">
+                    <i class="fas fa-user-tie"></i>
+                  </div>
+                  <div class="author-info">
+                    <h5>John Banda</h5>
+                    <p>Energy Consultant</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">
+                  Learning from international experts gave me a global perspective on clean energy.
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-avatar bg-info">
+                    <i class="fas fa-globe-africa"></i>
+                  </div>
+                  <div class="author-info">
+                    <h5>Chanda Kabwe</h5>
+                    <p>Research Assistant</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-controls">
+            <button class="testimonial-prev" onclick="prevTestimonial()">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="testimonial-next" onclick="nextTestimonial()">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY SECTION -->
+      <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="fw-bold text-dark mb-3">Project Gallery</h2>
+              <div class="divider bg-success mx-auto" style="width: 60px; height: 3px;"></div>
+              <p class="text-muted mt-4">
+                Visual documentation of project activities, workshops, and events.
+              </p>
+            </div>
+          </div>
+          
+          <div class="row g-3">
+            <!-- Gallery Image 1 -->
+            <div class="col-md-4">
+              <div class="gallery-item position-relative overflow-hidden rounded">
+                <img src="./images/gallery1.jpg" 
+                     class="img-fluid" alt="Workshop Session" style="height: 250px; width: 100%; object-fit: cover;" />
+                <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50 text-white opacity-0">
+                  <h5 class="mb-0">Student Workshop</h5>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Gallery Image 2 -->
+            <div class="col-md-4">
+              <div class="gallery-item position-relative overflow-hidden rounded">
+                <img src="./images/gallery2.jpg" 
+                     class="img-fluid" alt="Field Visit" style="height: 250px; width: 100%; object-fit: cover;" />
+                <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50 text-white opacity-0">
+                  <h5 class="mb-0">Field Research</h5>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Gallery Image 3 -->
+            <div class="col-md-4">
+              <div class="gallery-item position-relative overflow-hidden rounded">
+                <img src="./images/gallery3.jpg" 
+                     class="img-fluid" alt="Partner Meeting" style="height: 250px; width: 100%; object-fit: cover;" />
+                <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50 text-white opacity-0">
+                  <h5 class="mb-0">Partner Meeting</h5>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Gallery Image 4 -->
+            <div class="col-md-4">
+              <div class="gallery-item position-relative overflow-hidden rounded">
+                <img src="./images/gallery4.jpg" 
+                     class="img-fluid" alt="Lighting Lab" style="height: 250px; width: 100%; object-fit: cover;" />
+                <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50 text-white opacity-0">
+                  <h5 class="mb-0">Laboratory Setup</h5>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Gallery Image 5 -->
+            <div class="col-md-4">
+              <div class="gallery-item position-relative overflow-hidden rounded">
+                <img src="./images/gallery6.jpg" 
+                     class="img-fluid" alt="Community Engagement" style="height: 250px; width: 100%; object-fit: cover;" />
+                <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50 text-white opacity-0">
+                  <h5 class="mb-0">Community Outreach</h5>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Gallery Image 6 -->
+            <div class="col-md-4">
+              <div class="gallery-item position-relative overflow-hidden rounded">
+                <img src="./images/gallery6.jpg" 
+                     class="img-fluid" alt="Award Ceremony" style="height: 250px; width: 100%; object-fit: cover;" />
+                <div class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-50 text-white opacity-0">
+                  <h5 class="mb-0">Graduation Ceremony</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="text-center mt-5">
+            <a href="#" class="btn btn-success px-4">
+              <i class="fas fa-images me-2"></i> View All Photos
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="py-5">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="fw-bold text-dark mb-3">Contact Us</h2>
+              <div class="divider bg-success mx-auto" style="width: 60px; height: 3px;"></div>
+              <p class="text-muted mt-4">
+                Get in touch with the ELECT Project team for inquiries, partnerships, or application information.
+              </p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="card border-0 shadow-lg">
+                <div class="card-body p-5">
+                  <div class="row">
+                    <!-- Contact Information -->
+                    <div class="col-md-5">
+                      <h4 class="fw-bold text-success mb-4">Project Coordination</h4>
+                      
+                      <div class="d-flex mb-4">
+                        <div class="icon-circle bg-success text-white me-3">
+                          <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                          <h6 class="fw-bold mb-1">Project Coordinator</h6>
+                          <p class="text-muted small mb-0">Dr. John Banda</p>
+                        </div>
+                      </div>
+                      
+                      <div class="d-flex mb-4">
+                        <div class="icon-circle bg-success text-white me-3">
+                          <i class="fas fa-university"></i>
+                        </div>
+                        <div>
+                          <h6 class="fw-bold mb-1">Institutional Affiliation</h6>
+                          <p class="text-muted small mb-0">Mulungushi University</p>
+                        </div>
+                      </div>
+                      
+                      <div class="d-flex mb-4">
+                        <div class="icon-circle bg-success text-white me-3">
+                          <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                          <h6 class="fw-bold mb-1">Contact Email</h6>
+                          <p class="text-muted small mb-0">elect.project@mu.ac.zm</p>
+                        </div>
+                      </div>
+                      
+                      <div class="d-flex">
+                        <div class="icon-circle bg-success text-white me-3">
+                          <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                          <h6 class="fw-bold mb-1">Project Office</h6>
+                          <p class="text-muted small mb-0">
+                            School of Engineering<br />
+                            Mulungushi University<br />
+                            Great North Road, Kabwe, Zambia
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <div class="col-md-7 mt-5 mt-md-0">
+                      <h4 class="fw-bold text-success mb-4">Send a Message</h4>
+                      
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                            <label for="name" class="form-label small fw-bold">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your name" required />
+                          </div>
+                          <div class="col-md-6">
+                            <label for="email" class="form-label small fw-bold">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your email" required />
+                          </div>
+                          <div class="col-12">
+                            <label for="subject" class="form-label small fw-bold">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Message subject" required />
+                          </div>
+                          <div class="col-12">
+                            <label for="message" class="form-label small fw-bold">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required></textarea>
+                          </div>
+                          <div class="col-12">
+                            <button type="submit" class="btn btn-success px-4">
+                              <i class="fas fa-paper-plane me-2"></i> Send Message
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div> <!-- End content-wrapper -->
+
+    <!-- ============================================================== -->
+    <!-- FOOTER -->
+    <!-- ============================================================== -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h5 class="fw-bold mb-3">ELECT Project</h5>
+            <p class="small text-light">
+              Energy Efficient Lighting for Clean Energy Transitions in Zambia. 
+              An international initiative co-funded by the European Union.
+            </p>
+            <div class="d-flex mt-4">
+              <a href="#" class="text-white me-3">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="text-white me-3">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="text-white me-3">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="text-white">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h5 class="fw-bold mb-3">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#home" class="text-light text-decoration-none">Home</a></li>
+              <li class="mb-2"><a href="#curriculum" class="text-light text-decoration-none">Curriculum</a></li>
+              <li class="mb-2"><a href="#news" class="text-light text-decoration-none">News & Events</a></li>
+              <li class="mb-2"><a href="#gallery" class="text-light text-decoration-none">Gallery</a></li>
+              <li><a href="#contact" class="text-light text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-lg-4">
+            <h5 class="fw-bold mb-3">Partners</h5>
+            <div class="row row-cols-2 g-2">
+              <div class="col">
+                <div class="bg-white rounded p-2 text-center">
+                  <small class="text-dark fw-bold">Mulungushi University</small>
+                </div>
+              </div>
+              <div class="col">
+                <div class="bg-white rounded p-2 text-center">
+                  <small class="text-dark fw-bold">Copperbelt University</small>
+                </div>
+              </div>
+              <div class="col">
+                <div class="bg-white rounded p-2 text-center">
+                  <small class="text-dark fw-bold">Aalto University</small>
+                </div>
+              </div>
+              <div class="col">
+                <div class="bg-white rounded p-2 text-center">
+                  <small class="text-dark fw-bold">Hellenic Open University</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <hr class="bg-light my-4" />
+        
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="mb-0 small text-light">
+              &copy; 2024 ELECT Project. All rights reserved.
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p class="mb-0 small text-light">
+              Co-funded by the <span class="fw-bold">European Union</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div> <!-- End main-wrapper -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  
+  <!-- Smooth Scroll Script -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        if(targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if(targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+          
+          // Close mobile navbar if open
+          const navbar = document.getElementById('navbarNav');
+          if(navbar.classList.contains('show')) {
+            const bsCollapse = new bootstrap.Collapse(navbar);
+            bsCollapse.hide();
+          }
+        }
+      });
+    });
+  </script>
+  
+  <!-- Gallery Hover Effect -->
+  <script>
+    document.querySelectorAll('.gallery-item').forEach(item => {
+      item.addEventListener('mouseenter', function() {
+        this.querySelector('.gallery-overlay').classList.remove('opacity-0');
+      });
+      item.addEventListener('mouseleave', function() {
+        this.querySelector('.gallery-overlay').classList.add('opacity-0');
+      });
+    });
+  </script>
+
+  <!-- Loading Animation Script -->
+  <script>
+    // Loading Animation
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        document.getElementById('pageLoader').classList.add('hidden');
+        // Enable animations after loading
+        document.body.classList.add('loaded');
+      }, 1500); // 1.5 second loading time
+    });
+
+    // Show loading for at least 1 second even if page loads faster
+    let minimumLoadTime = 1000;
+    let startTime = Date.now();
+
+    window.addEventListener('load', function() {
+      let loadTime = Date.now() - startTime;
+      let remainingTime = minimumLoadTime - loadTime;
+      
+      if (remainingTime > 0) {
+        setTimeout(function() {
+          document.getElementById('pageLoader').classList.add('hidden');
+        }, remainingTime);
+      }
+    });
+  </script>
+
+  <!-- Energy Calculator Script -->
+  <script>
+    // Energy Savings Calculator
+    document.addEventListener('DOMContentLoaded', function() {
+      const lightCount = document.getElementById('lightCount');
+      const usageHours = document.getElementById('usageHours');
+      const lightCountValue = document.getElementById('lightCountValue');
+      const usageHoursValue = document.getElementById('usageHoursValue');
+      const calculateBtn = document.getElementById('calculateBtn');
+      
+      // Display current values
+      lightCountValue.textContent = lightCount.value;
+      usageHoursValue.textContent = usageHours.value;
+      
+      // Update displayed values on slider change
+      lightCount.addEventListener('input', function() {
+        lightCountValue.textContent = this.value;
+      });
+      
+      usageHours.addEventListener('input', function() {
+        usageHoursValue.textContent = this.value;
+      });
+      
+      // Calculate savings when button is clicked
+      calculateBtn.addEventListener('click', calculateSavings);
+      
+      // Calculate on page load for default values
+      setTimeout(calculateSavings, 1000);
+      
+      function calculateSavings() {
+        const lights = parseInt(lightCount.value);
+        const hours = parseInt(usageHours.value);
+        
+        // Constants for calculation (based on real data)
+        const traditionalWatts = 60; // 60W traditional bulb
+        const efficientWatts = 10;   // 10W LED bulb
+        const electricityCost = 0.15; // $0.15 per kWh
+        const co2PerKwh = 0.5; // kg CO2 per kWh (average grid)
+        const annualDays = 365;
+        const avgHomeConsumption = 3000; // kWh per year per home
+        
+        // Calculations
+        const traditionalEnergy = lights * traditionalWatts * hours * annualDays / 1000;
+        const efficientEnergy = lights * efficientWatts * hours * annualDays / 1000;
+        const energySaved = traditionalEnergy - efficientEnergy;
+        const costSaved = energySaved * electricityCost;
+        const co2Reduced = energySaved * co2PerKwh;
+        const equivalentHomes = Math.round(energySaved / avgHomeConsumption);
+        
+        // Animation function for counters
+        function animateCounter(element, target, suffix = '') {
+          const current = parseFloat(element.textContent.replace(/[^0-9.]/g, '')) || 0;
+          const increment = target / 100;
+          let count = current;
+          
+          const timer = setInterval(() => {
+            count += increment;
+            if (count >= target) {
+              count = target;
+              clearInterval(timer);
+            }
+            
+            // Format numbers
+            if (element.id === 'costSaved') {
+              element.textContent = '$' + Math.round(count).toLocaleString();
+            } else if (element.id === 'energySaved') {
+              element.textContent = Math.round(count).toLocaleString() + ' kWh';
+            } else if (element.id === 'co2Reduced') {
+              element.textContent = Math.round(count).toLocaleString() + ' kg';
+            } else if (element.id === 'equivalentHomes') {
+              element.textContent = Math.round(count);
+            }
+          }, 20);
+        }
+        
+        // Update display with animation
+        animateCounter(document.getElementById('energySaved'), Math.round(energySaved));
+        animateCounter(document.getElementById('costSaved'), Math.round(costSaved));
+        animateCounter(document.getElementById('co2Reduced'), Math.round(co2Reduced));
+        animateCounter(document.getElementById('equivalentHomes'), equivalentHomes);
+        
+        // Update progress bar (percentage savings)
+        const savingsPercentage = Math.min(100, Math.round((energySaved / traditionalEnergy) * 100));
+        document.getElementById('savingsProgress').style.width = savingsPercentage + '%';
+        
+        // Update impact message
+        const impactMessage = document.getElementById('impactMessage');
+        if (lights < 50) {
+          impactMessage.innerHTML = `<i class="fas fa-home me-2"></i> This is equivalent to <strong>${equivalentHomes}</strong> average Zambian homes' annual electricity use!`;
+        } else if (lights < 200) {
+          impactMessage.innerHTML = `<i class="fas fa-school me-2"></i> Great! This could power a small school or clinic for <strong>${Math.round(energySaved/365)} days</strong>!`;
+        } else {
+          impactMessage.innerHTML = `<i class="fas fa-city me-2"></i> Impressive! This is like taking <strong>${Math.round(co2Reduced/1000)} cars</strong> off the road for a year!`;
+        }
+        
+        // Add visual feedback
+        calculateBtn.innerHTML = '<i class="fas fa-check me-2"></i> Calculated!';
+        calculateBtn.classList.remove('btn-success');
+        calculateBtn.classList.add('btn-warning');
+        
+        setTimeout(() => {
+          calculateBtn.innerHTML = '<i class="fas fa-bolt me-2"></i> Re-calculate';
+          calculateBtn.classList.remove('btn-warning');
+          calculateBtn.classList.add('btn-success');
+        }, 2000);
+      }
+    });
+  </script>
+
+  <!-- Performance Metrics Script -->
+  <script>
+    // Performance Metrics Counter
+    document.addEventListener('DOMContentLoaded', function() {
+      const metricValues = document.querySelectorAll('.metric-value');
+      
+      // Function to check if element is in viewport
+      function isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+      
+      // Function to animate counting
+      function animateCount(element) {
+        const target = parseInt(element.getAttribute('data-target'));
+        const duration = 2000; // 2 seconds
+        const increment = target / (duration / 16); // 60fps
+        let current = 0;
+        
+        const timer = setInterval(() => {
+          current += increment;
+          if (current >= target) {
+            current = target;
+            clearInterval(timer);
+            element.textContent = target.toLocaleString();
+          } else {
+            element.textContent = Math.floor(current).toLocaleString();
+          }
+        }, 16);
+        
+        // Add animation class
+        element.classList.add('counting');
+      }
+      
+      // Check if metrics are visible on page load
+      function checkMetricsVisibility() {
+        metricValues.forEach(element => {
+          if (isInViewport(element) && !element.hasAttribute('data-animated')) {
+            animateCount(element);
+            element.setAttribute('data-animated', 'true');
+          }
+        });
+      }
+      
+      // Initial check
+      checkMetricsVisibility();
+      
+      // Check on scroll
+      window.addEventListener('scroll', checkMetricsVisibility);
+      
+      // Simulate real-time updates (every 30 seconds)
+      setInterval(() => {
+        metricValues.forEach(element => {
+          if (element.hasAttribute('data-animated')) {
+            const current = parseInt(element.textContent.replace(/,/g, ''));
+            const target = parseInt(element.getAttribute('data-target'));
+            const randomIncrease = Math.floor(Math.random() * 10) + 1;
+            
+            // Update target
+            const newTarget = target + randomIncrease;
+            element.setAttribute('data-target', newTarget);
+            
+            // Animate to new value
+            animateCount(element);
+          }
+        });
+      }, 30000); // Update every 30 seconds
+      
+      // Add live indicator
+      const metricsSection = document.querySelector('.metric-card');
+      if (metricsSection) {
+        const liveIndicator = document.createElement('div');
+        liveIndicator.className = 'position-absolute top-0 end-0 m-2';
+        liveIndicator.innerHTML = `
+          <span class="badge bg-success">
+            <span class="live-dot"></span> LIVE
+          </span>
+        `;
+        metricsSection.parentNode.insertBefore(liveIndicator, metricsSection);
+      }
+    });
+  </script>
+
+  <!-- Dark Mode Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const darkModeToggle = document.getElementById("darkModeToggle");
+      const darkModeIcon = darkModeToggle.querySelector("i");
+      
+      const savedMode = localStorage.getItem("darkMode");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      
+      if (savedMode === "enabled" || (!savedMode && prefersDark)) {
+        enableDarkMode();
+      }
+      
+      darkModeToggle.addEventListener("click", function() {
+        if (document.body.classList.contains("dark-mode")) {
+          disableDarkMode();
+        } else {
+          enableDarkMode();
+        }
+      });
+      
+      function enableDarkMode() {
+        document.body.classList.add("dark-mode");
+        darkModeIcon.className = "fas fa-sun";
+        localStorage.setItem("darkMode", "enabled");
+      }
+      
+      function disableDarkMode() {
+        document.body.classList.remove("dark-mode");
+        darkModeIcon.className = "fas fa-moon";
+        localStorage.setItem("darkMode", "disabled");
+      }
+    });
+  </script>
+
+  <!-- Zambia Map Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const regions = document.querySelectorAll(".map-region");
+      const regionDetails = document.getElementById("regionDetails");
+      const regionName = document.getElementById("regionName");
+      const regionDescription = document.getElementById("regionDescription");
+      const regionProjects = document.getElementById("regionProjects");
+      const statProjects = document.getElementById("statProjects");
+      
+      const regionData = {
+        "Lusaka": {
+          projects: ["University Lighting Retrofit", "CBD Street Lighting", "Government Buildings"],
+          description: "Capital city with urban lighting projects."
+        },
+        "Copperbelt": {
+          projects: ["Mining Camp Lighting", "Industrial Zone Retrofit", "Community Solar"],
+          description: "Industrial region focusing on mining and communities."
+        },
+        "Southern": {
+          projects: ["Rural Solar Lights", "Agricultural Lighting"],
+          description: "Agricultural region with rural projects."
+        }
+      };
+      
+      regions.forEach(region => {
+        region.addEventListener("click", function() {
+          // Remove active class
+          regions.forEach(r => r.classList.remove("active"));
+          
+          // Add active to clicked
+          this.classList.add("active");
+          
+          // Get data
+          const regionTitle = this.getAttribute("data-region");
+          const projects = this.getAttribute("data-projects");
+          const data = regionData[regionTitle];
+          
+          // Update display
+          regionName.innerHTML = `<i class="fas fa-map-pin me-2"></i>${regionTitle}`;
+          regionDescription.textContent = data.description;
+          statProjects.textContent = projects;
+          
+          // Update projects list
+          regionProjects.innerHTML = data.projects.map(project => 
+            `<li><i class="fas fa-check-circle text-success me-2"></i>${project}</li>`
+          ).join("");
+          
+          // Show details
+          regionDetails.style.display = "block";
+        });
+      });
+      
+      // Auto-click first region after delay
+      setTimeout(() => {
+        if (regions.length > 0 && !document.querySelector(".map-region.active")) {
+          regions[0].click();
+        }
+      }, 1000);
+    });
+  </script>
+
+  <!-- Testimonials Script -->
+  <script>
+    let currentTestimonial = 0;
+    const testimonials = document.querySelectorAll(".testimonial-card");
+    
+    function showTestimonial(index) {
+      testimonials.forEach((card, i) => {
+        card.style.display = i === index ? "block" : "none";
+      });
+    }
+    
+    function nextTestimonial() {
+      currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+      showTestimonial(currentTestimonial);
+    }
+    
+    function prevTestimonial() {
+      currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
+      showTestimonial(currentTestimonial);
+    }
+    
+    // Initialize - show all on desktop, only first on mobile
+    window.addEventListener("load", () => {
+      if (window.innerWidth >= 768) {
+        testimonials.forEach(card => card.style.display = "block");
+      } else {
+        showTestimonial(0);
+      }
+    });
+    
+    // Auto-rotate testimonials
+    setInterval(nextTestimonial, 5000);
+  </script>
+</body>
+</html>
