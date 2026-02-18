@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: elect-project
+    env: static
+    buildCommand: ""
+    publishPath: ./landingpage
