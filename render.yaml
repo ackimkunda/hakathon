@@ -3,5 +3,4 @@ services:
     name: elect-project
     env: static
     buildCommand: ""
-    publishPath: ./landingpage 
-
+    publishPath: landingpage
